@@ -3,16 +3,17 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className="">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+      <main className="container mx-auto">
+        <h1 className='text-green-100 text-center'>
+          Welcome to <a className="text-black" href="https://nextjs.org">Next.js!</a>
         </h1>
+        <div className="bg-hero-pattern w-full h-130 sm:h-315 bg-cover bg-center bg-no-repeat"></div>
 
         <p className={styles.description}>
           Get started by editing{' '}
